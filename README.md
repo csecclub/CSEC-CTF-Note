@@ -64,6 +64,9 @@ https://discoveringegypt.com/hieroglyphic-typewriter/
 photo forensics
 https://29a.ch/photo-forensics/#forensic-magnifier
 
+Another great amazing tool
+https://www.aperisolve.com/96a7f666c0bf82891135e98c8c2e5bea
+
 
 # Password cracking
 ## Hashcat
