@@ -60,6 +60,11 @@ https://tools.keycdn.com/sha256-online-generator (sha256 gen)
 ## Hyroglyphs
 https://discoveringegypt.com/hieroglyphic-typewriter/
 
+## Forensics
+photo forensics
+https://29a.ch/photo-forensics/#forensic-magnifier
+
+
 # Password cracking
 ## Hashcat
 ```
