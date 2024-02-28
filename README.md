@@ -241,5 +241,19 @@ byte_message = long_to_bytes(int_message)
 print(byte_message)
                          
 ```
+xor_starter.py
+```
+from pwn import xr
+# Define two byte strings
+data = b"label!"
+key = 13
+
+# Perform XOR using xor()
+xored_data = xor(data, key)
+
+# Print the result (may appear gibberish)
+print(xored_data)
+
+```
 
 
