@@ -215,3 +215,18 @@ Wlan.wep.iv
 64 bit WEP contains a 40-bit key and a 24-bit initialization vector which forms the final 64-bit RC4-based key for WEP).
 https://en.wikipedia.org/wiki/Wired_Equivalent_Privacy#Encryption_details 
 
+## CryptoCTF Python Programs
+hex-to-b64.py
+```
+import binascii
+
+s = '72bca9b68fc16ac7beeb8f849dca1d8a783e8acf9679bf9269f7bf'
+
+bytesdata = binascii.unhexlify(s)
+
+b64_encode = binascii.b2a_base64(bytesdata).decode("utf-8")
+
+print(b64_encode)
+
+```
+
