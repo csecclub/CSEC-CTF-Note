@@ -216,6 +216,7 @@ Wlan.wep.iv
 https://en.wikipedia.org/wiki/Wired_Equivalent_Privacy#Encryption_details 
 
 ## CryptoCTF Python Programs
+
 hex-to-b64.py
 ```
 import binascii
@@ -229,4 +230,16 @@ b64_encode = binascii.b2a_base64(bytesdata).decode("utf-8")
 print(b64_encode)
 
 ```
+int-to-message(string).py
+```
+from Crypto.Util.number import *
+
+int_message = 11515195063862318899931685488813747395775516287289682636499965282714637259206269
+
+byte_message = long_to_bytes(int_message)
+
+print(byte_message)
+                         
+```
+
 
