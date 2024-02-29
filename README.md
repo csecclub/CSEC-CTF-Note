@@ -7,7 +7,7 @@ https://cyberskyline.com/competition/dashboard
 
 ## Linux Terminal commands
 
-https://www.kali.org/docs/wsl/win-kex/ (win kex 
+https://www.kali.org/docs/wsl/win-kex/ (win kex)
 ```
 this is for running kali subsystem in windows (brings up an actual frontend you can see pretty cool)
 kex --esm --ip -s
