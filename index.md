@@ -3,8 +3,9 @@
 layout: home
 
 hero:
-  name: "CSEC-CTF"
-  tagline: CTF notes
+  name: "CSEC CTF"
+  text: "A VitePress Site"
+  tagline: My great project tagline
   actions:
     - theme: brand
       text: Markdown Examples
