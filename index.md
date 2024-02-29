@@ -4,12 +4,11 @@ layout: home
 
 hero:
   name: "CSEC CTF"
-  text: "A VitePress Site"
-  tagline: My great project tagline
+  tagline: Notes over CTF topics
   actions:
     - theme: brand
-      text: Markdown Examples
-      link: /markdown-examples
+      text: Kali-Linux Setup
+      link: CTF Notes/Kali-Linux/what-is-kali.md
     - theme: alt
       text: API Examples
       link: /api-examples
