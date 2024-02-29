@@ -7,8 +7,14 @@ hero:
   tagline: Notes over CTF topics
   actions:
     - theme: brand
-      text: Kali-Linux Setup
+      text: Kali-Linux
       link: CTF Notes/Kali-Linux/what-is-kali.md
+    - theme: brand
+      text: Crptography
+      link: CTF Notes/Cyptography/what-is-crypto.md
+    - theme: brand
+      text: Password Cracking
+      link: CTF Notes/Password-Cracking/what-is-password-cracking.md
     - theme: alt
       text: API Examples
       link: /api-examples
