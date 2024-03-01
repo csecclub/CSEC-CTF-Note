@@ -1,7 +1,7 @@
+
 ---
 layout: doc
 ---
-
 # What is Kali Linux?
 
 Kali is an Operating System that has a bunch of preinstalled

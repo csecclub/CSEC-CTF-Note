@@ -56,7 +56,6 @@ export default defineConfig({
       ],
     },
 
-
     editLink: {
       pattern: '',
       text: 'Edit this page on github!'

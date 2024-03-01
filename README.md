@@ -5,6 +5,7 @@ To contribute, simply fork this repository and create a new branch for your chan
 - Betim's note: I recommend that you make small changes at a time and make sure you  have tested them before pushing them up. 
 This will make sure the site is up and running, without any huge problems!
 
+
 ### How to run on local machine <Badge type="info" text="You can run this on github codespaces to make it easier!" />
 1. Clone the repo using `git clone https://github.com/Betim-Hodza/CSEC-CTF-REP` in your terminal or command prompt.
 2. Install NodeJS from [here](https://nodejs.org/) if you haven't already installed it.
