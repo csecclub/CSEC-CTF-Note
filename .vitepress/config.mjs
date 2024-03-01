@@ -7,7 +7,7 @@ export default defineConfig({
   description: "repo for all your ctf needs",
   
   themeConfig: {
-    logo: 'assets/michi.png',
+    logo: 'https://utacsec.org/static/media/michi.576d038960feac1cb458.png',
     siteTitle: 'CSEC',
     
     // https://vitepress.dev/reference/default-theme-config

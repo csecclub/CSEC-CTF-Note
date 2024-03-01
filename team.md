@@ -11,7 +11,7 @@ import{
 
 const members = [
     {
-        avatar: 'assets/michi.png',
+        avatar: 'https://utacsec.org/static/media/michi.576d038960feac1cb458.png',
         name: 'Michi aka HackerCat',
         title: 'Mascot',
         desc: 'Meow!',

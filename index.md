@@ -6,7 +6,7 @@ hero:
   name: "CSEC CTF notes"
   tagline: Documentation over all the ethical hacker tools!
   image:
-    src: assets/michi.png
+    src: https://utacsec.org/static/media/michi.576d038960feac1cb458.png
   actions:
     - theme: brand
       text: Our-Team!
