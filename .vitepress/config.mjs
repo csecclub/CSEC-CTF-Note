@@ -6,6 +6,10 @@ export default defineConfig({
   title: "CSEC CTF Notes",
   description: "repo for all your ctf needs",
   themeConfig: {
+    logo: 'assets/michi.png',
+    siteTitle: 'CSEC CTF Notes',
+    
+
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: 'Home', link: '/' },
@@ -22,7 +26,7 @@ export default defineConfig({
         { text: 'What is Kali?', link: 'CTF Notes/Kali-Linux/what-is-kali.md'},
         {
           text: 'Setting up Kali',
-          collapsed: true,
+          collapsed: false,
           items: [
             { text: 'Virtual Machine', link: 'CTF Notes/Kali-Linux/setup-kali.md' },
             { text: 'Windows Subsystem Linux', link: 'CTF Notes/Kali-Linux/setup-kali-wsl.md' },
@@ -34,7 +38,7 @@ export default defineConfig({
         { text: 'What is cryptography?', link: 'CTF Notes/Cyptography/what-is-crypto.md'},
         {
           text: 'Cryptography tools/code',
-          collapsed: true,
+          collapsed: false,
           items: [
             { text: 'Various Tools', link: 'CTF Notes/Cyptography/what-is-crypto.md' },
           ]
@@ -45,7 +49,7 @@ export default defineConfig({
         { text: 'What is Password Cracking?', link: 'CTF-Notes/Password-Cracking/what-is-password-cracking.md'},
         {
           text: 'Password Cracking tools/code',
-          collapsed: true,
+          collapsed: false,
           items: [
             { text: 'Various Tools', link: 'CTF Notes/Cyptography/what-is-crypto.md' },
           ]
