@@ -5,17 +5,16 @@ export default defineConfig({
   base: '/',
   title: "CSEC CTF Notes",
   description: "repo for all your ctf needs",
+  
   themeConfig: {
-    logo: 'assets/michi.png',
-    siteTitle: 'CSEC CTF Notes',
+    logo: 'https://utacsec.org/static/media/michi.576d038960feac1cb458.png',
+    siteTitle: 'CSEC',
     
-
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: 'Home', link: '/' },
+      { text: 'Our Team', link: 'team.md' },
       { text: 'Kali-Linux', link: 'CTF Notes/Kali-Linux/what-is-kali.md' },
-      { text: 'Cryptography', link: 'CTF Notes/Cyptography/what-is-crypto.md' },
-      { text: 'Password Cracking', link: 'CTF Notes/Password-Cracking/what-is-password-cracking.md' },
     ],
 
     // https://vitepress.dev/reference/default-theme-sidebar
@@ -57,8 +56,13 @@ export default defineConfig({
       ],
     },
 
+    editLink: {
+      pattern: '',
+      text: 'Edit this page on github!'
+    },
+
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/mobiclub' }
+      { icon: 'github', link: 'https://github.com/Betim-Hodza/CSEC-CTF-REP/tree/md-to-html' }
     ]
   }
 })
