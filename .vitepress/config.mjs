@@ -2,7 +2,7 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  base: '/CTF Notes',
+  base: '/',
   title: "CSEC CTF Notes",
   description: "repo for all your ctf needs",
   
