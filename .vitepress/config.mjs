@@ -1,5 +1,9 @@
 import { defineConfig } from 'vitepress'
 
+/*Site is being hosted on cloudflare
+https://dash.cloudflare.com/f782fed6dbb9630d9a2b2eb8a5f26847/pages/view/csec-ctf-rep 
+*/
+
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   base: '/',
