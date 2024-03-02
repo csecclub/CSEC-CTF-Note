@@ -12,7 +12,7 @@ export default defineConfig({
     
     // https://vitepress.dev/reference/default-theme-config
     nav: [
-      { text: 'Home', link: '/CTF Notes' },
+      { text: 'Home', link: '/' },
       { text: 'Our Team', link: 'team.md' },
       { text: 'Kali-Linux', link: 'CTF Notes/Kali-Linux/what-is-kali.md' },
     ],
