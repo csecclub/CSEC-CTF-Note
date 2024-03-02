@@ -9,9 +9,6 @@ hero:
     src: https://utacsec.org/static/media/michi.576d038960feac1cb458.png
   actions:
     - theme: brand
-      text: Our-Team!
-      link: team.md
-    - theme: brand
       text: Kali-Linux
       link: CTF Notes/Kali-Linux/what-is-kali.md
     - theme: brand
