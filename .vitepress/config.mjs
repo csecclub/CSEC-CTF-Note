@@ -2,7 +2,7 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  base: '/CTF notes',
+  base: '/CTF Notes',
   title: "CSEC CTF Notes",
   description: "repo for all your ctf needs",
   
@@ -12,7 +12,7 @@ export default defineConfig({
     
     // https://vitepress.dev/reference/default-theme-config
     nav: [
-      { text: 'Home', link: '/' },
+      { text: 'Home', link: '/CTF Notes' },
       { text: 'Our Team', link: 'team.md' },
       { text: 'Kali-Linux', link: 'CTF Notes/Kali-Linux/what-is-kali.md' },
     ],
