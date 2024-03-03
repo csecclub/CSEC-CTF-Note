@@ -61,12 +61,12 @@ export default defineConfig({
     },
 
     editLink: {
-      pattern: '',
-      text: 'Edit this page on github!'
+      pattern: 'https://github.com/Betim-Hodza/CSEC-CTF-REP/',
+      text: 'Edit this page on github!',
     },
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/Betim-Hodza/CSEC-CTF-REP/tree/md-to-html' }
+      { icon: 'github', link: 'https://github.com/Betim-Hodza/CSEC-CTF-REP/' }
     ]
   }
 })
