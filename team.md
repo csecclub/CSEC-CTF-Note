@@ -9,9 +9,24 @@ import{
     VPTeamPageSection
 } from 'vitepress/theme'
 
+import Hussain from './assets/officers/Hussain.jpg'
+import Brett from './assets/officers/Brett.jpg'
+import DiegoM from './assets/officers/Diego.jpg'
+import Javier from './assets/officers/Javier.jpg'
+import Rose from './assets/officers/Rose.jpg'
+import Jocelyn from './assets/officers/Jocelyn.jpg'
+import Monika from './assets/officers/Monika.jpg'
+import Nicole from './assets/officers/Nicole.jpg'
+import Jeremiah from './assets/officers/Jeremiah.jpg'
+import Gino from './assets/officers/Gino.jpg'
+import Anne from './assets/officers/Anne.jpg'
+import DiegoV from './assets/officers/DiegoVester.jpg'
+import Betim from './assets/officers/Betim.jpg'
+import Devrat from './assets/officers/Devrat.jpg'
+
 const members = [
     {
-        avatar: 'assets/officers/Hussain.jpg',
+        avatar: Hussain,
         name: 'Hussain Alkatheri',
         title: 'President',
         desc: '',
@@ -21,14 +36,14 @@ const members = [
         ]
     },
     {
-      avatar: 'assets/officers/Brett.jpg',
+      avatar: Brett,
         name: 'Brett',
         title: 'Vice President',
         desc: '',
         org: 'CSEC',
     },
     {
-        avatar: 'assets/officers/Diego.jpg',
+        avatar: DiegoM,
         name: 'Diego Martinez',
         title: 'Secretary',
         desc: '',
@@ -38,7 +53,7 @@ const members = [
         ]
     },
     {
-        avatar: 'assets/officers/Javier.jpg',
+        avatar: Javier,
         name: 'Javier Cardoso',
         title: 'Web Master',
         desc: '',
@@ -48,7 +63,7 @@ const members = [
         ]
     },
     {
-        avatar: 'assets/officers/Rose.jpg',
+        avatar: Rose,
         name: 'Rose Ramireze',
         title: 'Infra. Officer',
         desc: '',
@@ -58,7 +73,7 @@ const members = [
         ]
     },
     {
-        avatar: 'assets/officers/Jocelyn.jpg',
+        avatar: Jocelyn,
         name: 'Jocelyn Vazquez',
         title: 'Infra. Officer',
         desc: '',
@@ -68,7 +83,7 @@ const members = [
         ]
     },
     {
-      avatar: 'assets/officers/Monika.jpg',
+      avatar: Monika,
         name: 'Monika Sutaria',
         title: 'Tech Devt. Officer',
         desc: '',
@@ -78,7 +93,7 @@ const members = [
         ]
     },
     {
-      avatar: 'assets/officers/Nicole.jpg',
+      avatar: Nicole,
         name: 'Nicole Rodriguez',
         title: 'Event Coordinator',
         desc: '',
@@ -88,7 +103,7 @@ const members = [
         ]
     },
     {
-      avatar: 'assets/officers/Jeremiah.jpg',
+      avatar: Jeremiah,
         name: 'Jeremiah Pitts',
         title: 'Event Planner',
         desc: '',
@@ -98,7 +113,7 @@ const members = [
         ]
     },
     {
-        avatar: 'assets/officers/Gino.jpg',
+        avatar: Gino,
         name: 'Gino De Luna',
         title: 'Social Media Officer',
         desc: '',
@@ -108,7 +123,7 @@ const members = [
         ]
     },
     {
-      avatar: 'assets/officers/Anne.jpg',
+      avatar: Anne,
         name: 'Anne Nguyen',
         title: 'CTF Officer',
         desc: '',
@@ -118,7 +133,7 @@ const members = [
         ]
     },
     {
-        avatar: 'assets/officers/DiegoVester.jpg',
+        avatar: DiegoV,
         name: 'Diego Vester',
         title: 'Director of Fundraising',
         desc: '',
@@ -128,7 +143,7 @@ const members = [
         ]
     },
     {
-      avatar: 'assets/officers/Betim.jpg',
+      avatar: Betim,
         name: 'Betim Hodza',
         title: 'Membership Officer',
         desc: '',
@@ -138,7 +153,7 @@ const members = [
         ]
     },
     {
-        avatar: 'assets/officers/Devrat.jpg',
+        avatar: Devrat,
         name: 'Devrat Patel',
         title: 'Membership Officer',
         desc: '',
