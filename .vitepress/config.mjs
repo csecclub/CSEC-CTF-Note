@@ -43,7 +43,14 @@ export default defineConfig({
           text: 'Cryptography tools/code',
           collapsed: false,
           items: [
-            { text: 'Various Tools', link: 'CTF Notes/Cyptography/what-is-crypto.md' },
+            { text: 'Various Tools', link: 'CTF Notes/Cyptography/crypto-tools.md' },
+          ]
+        },
+        {
+          text: 'Cryptography Topics',
+          collapsed: false,
+          items: [
+            { text: 'OneTimePad', link: 'CTF Notes/Cyptography/Onepad.md' },
           ]
         },
       ],
