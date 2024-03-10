@@ -12,6 +12,9 @@ hero:
       text: Kali-Linux
       link: CTF Notes/Kali-Linux/what-is-kali.md
     - theme: brand
+      text: OSINT
+      link: CTF Notes/OSINT/what-is-osint.md
+    - theme: brand
       text: Crptography
       link: CTF Notes/Cyptography/what-is-crypto.md
     - theme: brand
@@ -23,6 +26,9 @@ hero:
     - theme: brand
       text: Log Analysis
       link: CTF Notes/Log-Analysis/what-is-log-analysis.md
+    - theme: brand
+      text: Network Traffic Analysis
+      link: CTF Notes/Network-Traffic-Analysis/what-is-NTA.md
     - theme: alt
       text: View on Github
       link: https://github.com/Betim-Hodza/CSEC-CTF-REP

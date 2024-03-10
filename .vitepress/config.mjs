@@ -88,6 +88,29 @@ export default defineConfig({
           ]
         },
       ],
+
+      'CTF Notes/OSINT': [
+        { text: 'What is OSINT?', link: 'CTF Notes/OSINT/what-is-osint.md'},
+        {
+          text: 'OSINT Tools and info',
+          collapsed: false,
+          items: [
+            { text: 'OSINT Tools', link: 'CTF Notes/OSINT/tools.md' },
+          ]
+        },
+      ],
+
+      'CTF Notes/Network-Traffic-Analysis': [
+        { text: 'What is Network-Traffic-Analysis?', link: 'CTF Notes/Network-Traffic-Analysis/what-is-NTA.md'},
+        {
+          text: 'NTA Tools and info',
+          collapsed: false,
+          items: [
+            { text: 'NTA Tools', link: 'CTF Notes/Network-Traffic-Analysis/tools.md' },
+            { text: 'NCL-NTA-walkthrough', link: 'CTF Notes/Network-Traffic-Analysis/NCL-NTA-solutions.md'}
+          ]
+        },
+      ],
     },
 
     editLink: {

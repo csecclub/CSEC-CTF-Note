@@ -57,6 +57,20 @@ How to detect it in a file like access.log
 ```
 grep '() {' access.log | awk '{print $1}' | sort | uniq
 ```
+* Will produce ip addresses that have tried to exploit shellshock vulnerability
 
-Will produce ip addresses that have tried to exploit shellshock vulnerability
+## Dirbuster
+(to be honest idk what this one is about but ill do more research)
+Paste link
+Use this directory
+```
+directory-list-2.3-medium.txt wordlist
+```
 
+## Epoch time converter
+Used to find the exact time in a log file
+<a href="https://www.epochconverter.com/">Online ETC</a>
+
+To find it for in example a squid log file, you cat it, then take the numbers at the beginning of the request before the ip address
+
+I.e. **1286536308.779**	180 192.168.0.224 TCP_MISS/200 411 GET http://liveupdate.symantecliveupdate.com/minitri.flg - DIRECT/125.23.216.203 text/plain (bold is epoch)
