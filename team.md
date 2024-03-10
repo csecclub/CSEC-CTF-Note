@@ -9,7 +9,6 @@ import{
     VPTeamPageSection
 } from 'vitepress/theme'
 
-import Hussain from './assets/officers/Hussain.jpg'
 import Brett from './assets/officers/Brett.jpg'
 import DiegoM from './assets/officers/Diego.jpg'
 import Javier from './assets/officers/Javier.jpg'
@@ -26,21 +25,21 @@ import Devrat from './assets/officers/Devrat.jpg'
 
 const members = [
     {
-        avatar: Hussain,
-        name: 'Hussain Alkatheri',
+      avatar: Brett,
+        name: 'Brett',
         title: 'President',
         desc: '',
         org: 'CSEC',
-        links: [
-            { icon: 'linkedin', link: 'https://www.linkedin.com/in/hussain-alkatheri/'},
-        ]
     },
     {
-      avatar: Brett,
-        name: 'Brett',
+        avatar: Rose,
+        name: 'Rose Ramireze',
         title: 'Vice President',
         desc: '',
         org: 'CSEC',
+        links: [
+            { icon: 'linkedin', link: 'https://www.linkedin.com/in/rose-ramirez/'},
+        ]
     },
     {
         avatar: DiegoM,
@@ -60,16 +59,6 @@ const members = [
         org: 'CSEC',
         links: [
             { icon: 'linkedin', link: 'https://www.linkedin.com/in/cardoso-javier/'},
-        ]
-    },
-    {
-        avatar: Rose,
-        name: 'Rose Ramireze',
-        title: 'Infra. Officer',
-        desc: '',
-        org: 'CSEC',
-        links: [
-            { icon: 'linkedin', link: 'https://www.linkedin.com/in/rose-ramirez/'},
         ]
     },
     {

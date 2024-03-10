@@ -17,6 +17,9 @@ hero:
     - theme: brand
       text: Password Cracking
       link: CTF Notes/Password-Cracking/what-is-password-cracking.md
+    - theme: brand
+      text: Forensics
+      link: CTF Notes/Forensics/what-is-forensics.md
     - theme: alt
       text: View on Github
       link: https://github.com/Betim-Hodza/CSEC-CTF-REP

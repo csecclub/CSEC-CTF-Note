@@ -54,14 +54,26 @@ export default defineConfig({
           ]
         },
       ],
-
+      
       'CTF Notes/Password-Cracking/': [
-        { text: 'What is Password Cracking?', link: 'CTF-Notes/Password-Cracking/what-is-password-cracking.md'},
+        { text: 'What is Password Cracking?', link: 'CTF Notes/Password-Cracking/what-is-password-cracking.md'},
         {
-          text: 'Password Cracking tools/code',
+          text: 'Password Cracking Tools and info',
           collapsed: false,
           items: [
-            { text: 'Various Tools', link: 'CTF Notes/Cyptography/what-is-crypto.md' },
+            { text: 'Password-Cracking Tools', link: 'CTF Notes/Password-Cracking/tools.md' },
+            { text: 'Hashcat Options', link: 'CTF Notes/Password-Cracking/hashcat-options.md'},
+          ]
+        },
+      ],
+
+      'CTF Notes/Forensics': [
+        { text: 'What is Forensics?', link: 'CTF Notes/Forensics/what-is-forensics.md'},
+        {
+          text: 'Forensics Tools and info',
+          collapsed: false,
+          items: [
+            { text: 'Forensics Tools', link: 'CTF Notes/Forensics/tools.md' },
           ]
         },
       ],
