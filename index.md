@@ -15,7 +15,7 @@ hero:
       text: OSINT
       link: CTF Notes/OSINT/what-is-osint.md
     - theme: brand
-      text: Crptography
+      text: Cryptography
       link: CTF Notes/Cyptography/what-is-crypto.md
     - theme: brand
       text: Password Cracking
