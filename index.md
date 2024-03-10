@@ -20,6 +20,9 @@ hero:
     - theme: brand
       text: Forensics
       link: CTF Notes/Forensics/what-is-forensics.md
+    - theme: brand
+      text: Log Analysis
+      link: CTF Notes/Log-Analysis/what-is-log-analysis.md
     - theme: alt
       text: View on Github
       link: https://github.com/Betim-Hodza/CSEC-CTF-REP

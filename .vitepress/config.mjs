@@ -77,6 +77,17 @@ export default defineConfig({
           ]
         },
       ],
+
+      'CTF Notes/Log-Analysis': [
+        { text: 'What is Log analysis?', link: 'CTF Notes/Log-Analysis/what-is-log-analysis.md'},
+        {
+          text: 'Log Analysis Tools and info',
+          collapsed: false,
+          items: [
+            { text: 'Log Tools', link: 'CTF Notes/Log-Analysis/tools.md' },
+          ]
+        },
+      ],
     },
 
     editLink: {
