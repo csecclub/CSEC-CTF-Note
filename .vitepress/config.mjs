@@ -6,7 +6,11 @@ https://dash.cloudflare.com/f782fed6dbb9630d9a2b2eb8a5f26847/pages/view/csec-ctf
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
+  markdown: {
+    math: true
+  },
   base: '/',
+  lastUpdated: true,
   title: "CSEC CTF Notes",
   description: "repo for all your ctf needs",
   
@@ -19,6 +23,18 @@ export default defineConfig({
       { text: 'Home', link: '/' },
       { text: 'Our Team', link: 'team.md' },
       { text: 'Kali-Linux', link: 'CTF Notes/Kali-Linux/what-is-kali.md' },
+      {
+        text: 'Tools',
+        items: [
+          { text: 'OSINT', link: 'CTF Notes/OSINT/tools.md' },
+          { text: 'Cryptography', link: 'CTF Notes/Cyptography/crypto-tools.md' },
+          { text: 'Password Cracking', link: 'CTF Notes/Password-Cracking/tools.md' },
+          { text: 'Forensics', link: 'CTF Notes/Forensics/tools.md' },
+          { text: 'Log Analysis', link: 'CTF Notes/Log-Analysis/tools.md' },
+          { text: 'Network Traffic Analysis', link: 'CTF Notes/Network-Traffic-Analysis/tools.md' },
+          { text: 'Binary Exploitation', link: 'CTF Notes/BinaryExploitation/tools.md' },
+        ]
+      },
     ],
 
     // https://vitepress.dev/reference/default-theme-sidebar
@@ -111,6 +127,17 @@ export default defineConfig({
           ]
         },
       ],
+
+      'CTF Notes/BinaryExploitation': [
+        { text: 'What is Binary Exploitation?', link: 'CTF Notes/BinaryExploitation/what-is-BE.md'},
+        {
+          text: 'BE Tools and info',
+          collapsed: false,
+          items: [
+            { text: 'BE Tools', link: 'CTF Notes/BinaryExploitation/tools.md' },
+          ]
+        },
+      ],
     },
 
     editLink: {
@@ -120,6 +147,12 @@ export default defineConfig({
 
     socialLinks: [
       { icon: 'github', link: 'https://github.com/Betim-Hodza/CSEC-CTF-REP/' }
-    ]
+    ],
+
+    search: 
+    {
+      provider: 'local'
+    },
+
   }
 })
