@@ -19,3 +19,15 @@ https://osintframework.com
 
 ## Whatsmyname
 https://whatsmyname.app 
+
+## IP Address tools
+https://hackertarget.com/ip-tools/
+
+## TOR Node list
+https://www.dan.me.uk/tornodes
+
+## Google Search operators
+https://ahrefs.com/blog/google-advanced-search-operators/ 
+
+## Flight Tracker
+https://globe.adsbexchange.com/ 
