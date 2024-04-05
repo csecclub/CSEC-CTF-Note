@@ -1,5 +1,10 @@
 # Log Analysis Tools
 
+## NMAP Port scanning techniques
+* -sS (TCP SYN scan) 
+
+https://nmap.org/book/man-port-scanning-techniques.html 
+
 ## Parsing logs for ip-addresses in terminal 
 <Badge type=info text="This is a NCL CTF" />
 
