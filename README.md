@@ -1,3 +1,6 @@
+# Welcome to CSECNote
+This is a repository to hold your notes (CTF related as well)!
+
 
 ## How to Contribute 
 To contribute, simply fork this repository and create a new branch for your changes. 
