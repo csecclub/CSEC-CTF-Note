@@ -10,6 +10,8 @@ A simple and common way to use hashcat is by running this command which checks t
 
 <Badge type="info" text="Btw you might have to use gzip to decompress rockyou.txt (gzip -d rockyou.txt.gz)!" />
 
+## Wordlists & Hashcats
+
 ```
 hashcat hash.txt -m 0 -a 0 /usr/share/wordlists/rockyou.txt 
 ```
@@ -20,6 +22,8 @@ hashcat hash.txt --show -m 0 -a 0 /usr/share/wordlists/rockyou.txt
 
 * The -m 0 option indicates a MD5 hash type and the -a 0 option indicates a dictionary attack. 
 * dictionary attacks are when you use a list of words (in this case, rockyou) to try and guess the password. 
+
+## Hashcats with masks
 
 Sometimes the password you're trying to crack you might know most of it
 
@@ -34,6 +38,19 @@ hashcat -m 0 -a 3 ./hash.txt 'SKY-HQNT-?d?d?d?d'
 
 The ?d in the hash indicates the hashcat should attempt passwords with a different digit in the place of each ?d.
 * This would mean that hashcat will attempt all possible passwords from SKY-HQNT-0000 to SKY-HQNT-9999. 
+
+## Generic Hashcat formats
+Go to this link:
+* https://hashcat.net/wiki/doku.php?id=example_hashes
+
+Or run this command in kali linux
+```
+hashcat --example-hashes
+```
+
+## Hash identifier
+Great tool to be able to find hashes
+https://hashes.com/en/tools/hash_identifier
 
 ## Creating wordlists
 
