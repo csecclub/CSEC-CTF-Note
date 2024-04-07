@@ -48,6 +48,12 @@ Running this command changes all characters from uppercase to lowercase
 └─$ tr '[:upper:]' '[:lower:]' < svu.txt > slower.txt
 ```
 
+## Ophcrack
 
+Ophcrack is a windows password cracking tool & is installed on kali linux already, so if you have the vm you can use it.
+
+* but it doesnt come preloaded with tables so you will have to download some here:
+* https://ophcrack.sourceforge.io/tables.php 
+* I personally recommend you just get the free fast cause in most cases in CTFs it will be windows xp password
 
 
