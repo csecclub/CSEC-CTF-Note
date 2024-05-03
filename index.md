@@ -3,7 +3,7 @@
 layout: home
 
 hero:
-  name: "CSEC CTF notes"
+  name: "CSEC Notes"
   tagline: Documentation over all the ethical hacker tools!
   image:
     src: https://utacsec.org/static/media/michi.576d038960feac1cb458.png

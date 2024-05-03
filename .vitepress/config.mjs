@@ -11,7 +11,7 @@ export default defineConfig({
   },
   base: '/',
   lastUpdated: true,
-  title: "CSEC CTF Notes",
+  title: "CSEC Note",
   description: "repo for all your ctf needs",
   
   themeConfig: {
@@ -33,6 +33,13 @@ export default defineConfig({
           { text: 'Log Analysis', link: 'CTF Notes/Log-Analysis/tools.md' },
           { text: 'Network Traffic Analysis', link: 'CTF Notes/Network-Traffic-Analysis/tools.md' },
           { text: 'Binary Exploitation', link: 'CTF Notes/BinaryExploitation/tools.md' },
+        ]
+      },
+      {
+        text: 'Notes and Topics',
+        items: [
+          { text: 'Shell Commands', link: 'CSECNotes/ShellCommand/shellcommands.md' },
+          
         ]
       },
     ],
@@ -141,12 +148,12 @@ export default defineConfig({
     },
 
     editLink: {
-      pattern: 'https://github.com/Betim-Hodza/CSEC-CTF-REP/',
+      pattern: 'https://github.com/csecclub/CSECNote',
       text: 'Edit this page on github!',
     },
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/Betim-Hodza/CSEC-CTF-REP/' }
+      { icon: 'github', link: 'https://github.com/csecclub/CSECNote' }
     ],
 
     search: 
