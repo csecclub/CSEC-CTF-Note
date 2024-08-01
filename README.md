@@ -1,7 +1,7 @@
 <h1 align="center">
   <a href="https://github.com/csecclub/CSECNote">
     <!-- Please provide path to your logo here -->
-    <img src="docs/images/logo.png" alt="Logo" width="100" height="100">
+    <img src="https://utacsec.org/static/media/michi.576d038960feac1cb458.png" alt="Logo" width="100" height="100">
   </a>
 </h1>
 
@@ -11,8 +11,6 @@
 
 <div align="center">
 <br />
-
-[![Project license](https://img.shields.io/github/license/csecclub/CSECNote.svg?style=flat-square)](LICENSE)
 
 [![Pull Requests welcome](https://img.shields.io/badge/PRs-welcome-ff69b4.svg?style=flat-square)](https://github.com/Betim-Hodza/note/issues?q=is%3Aissue+is%3Aopen+label%3A%22help+wanted%22)
 [![code with love by Betim-Hodza](https://img.shields.io/badge/%3C%2F%3E%20with%20%E2%99%A5%20by-Betim-Hodza-ff1414.svg?style=flat-square)](https://github.com/Betim-Hodza)
@@ -33,7 +31,6 @@
 - [Project assistance](#project-assistance)
 - [Contributing](#contributing)
 - [Authors & contributors](#authors--contributors)
-- [License](#license)
 - [Acknowledgements](#acknowledgements)
 
 </details>
@@ -110,12 +107,6 @@ The original setup of this repository is by [Betim Hodza](https://github.com/Bet
 
 For a full list of all authors and contributors, see [the contributors page](https://github.com/csecclub/CSECNote/contributors).
 
-
-## License
-
-This project is licensed under the **MIT license**.
-
-See [LICENSE](LICENSE) for more information.
 
 ## Acknowledgements
 
