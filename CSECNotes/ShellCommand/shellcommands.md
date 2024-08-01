@@ -255,7 +255,6 @@ compgen -c | fzf | xargs man
 compgen -c | fzf | xargs tldr
 ```
 
-
 ### Alias
 
 Essentially a way to save cool commands
@@ -283,6 +282,10 @@ find . -name 'node_modules' -type d |
 ## history 
 
 previous command runs
+
+## Jobs and running command
+
+
 
 ## Useful shell hotkeys
 
