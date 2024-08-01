@@ -42,8 +42,6 @@
 
 ## About
 
-<table><tr><td>
-
 > This is a repository to hold your notes Cybersecurity & CTF related as well! 
 
 
