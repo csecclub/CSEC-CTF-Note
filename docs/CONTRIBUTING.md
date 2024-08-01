@@ -39,7 +39,7 @@ npm run docs:preview
   * You can add folders to the /CTF Notes/ folder
   * Create Markdown files to write your notes
   * You can link your files inside of index.md in the root (follow the format there)
-  * You can also link it to the navbar by going to /.vitepress/config.mjs and update the nav bar <Badge type="tip" text="follow the formatting and test often!" />
+  * You can also link it to the navbar by going to /.vitepress/config.mjs and update the nav bar
 
 ### Please follow these guidelines when adding content:
 
@@ -47,7 +47,7 @@ npm run docs:preview
 2. When working on the website run npm run docs:dev
    * when you are done with your changes check that it builds w/ npm run docs:build and also preview it too w/ npm run docs:preview
 3. Add an index file in the relevant section of the repo if you want it to be searchable by the search bar at the top right
-4. Use `#` for headers (`####`, `###`, etc.) instead of underlines. <Badge type="tip" text="Also if you want clickable tabs make sure to use `##` in your MD file" />
+4. Use `#` for headers (`####`, `###`, etc.) instead of underlines. 
 5. Make sure you open a pull request once all your changes are done, good git commits are greatly appreciated!
 
 ## Issues and feature requests
