@@ -43,3 +43,11 @@ running object dump can give you the assembly of a file
 objdump -Dj .text
 ```
 Text obj dumb
+
+## Binwalk
+
+basically a tool that can tell you more about files (works well with .img files)
+
+```
+Binwalk -h 
+```
