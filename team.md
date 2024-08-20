@@ -20,7 +20,7 @@ import Jeremiah from './assets/officers/Jeremiah.jpg'
 import Gino from './assets/officers/Gino.jpg'
 import Anne from './assets/officers/Anne.jpg'
 import DiegoV from './assets/officers/DiegoVester.jpg'
-import Betim from './assets/officers/Betim.jpg'
+import Betim from './assets/officers/Betim.jpeg'
 import Devrat from './assets/officers/Devrat.jpg'
 
 const members = [
