@@ -30,4 +30,9 @@ https://www.dan.me.uk/tornodes
 https://ahrefs.com/blog/google-advanced-search-operators/ 
 
 ## Flight Tracker
-https://globe.adsbexchange.com/ 
+Cool real time and history:
+- https://globe.adsbexchange.com/
+Current flight tracker:
+- https://www.flightaware.com/
+Past flight tracker:
+- https://www.flightstats.com/v2/
