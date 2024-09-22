@@ -31,3 +31,6 @@ md5sum file.xxx
 ## Hyroglyphs (decoder)
 * <a href="https://discoveringegypt.com/hieroglyphic-typewriter/">Hieroglyph decoder</a>
 
+## Rumkin
+Atbash cipher decoder
+- https://rumkin.com/tools/cipher/atbash/
