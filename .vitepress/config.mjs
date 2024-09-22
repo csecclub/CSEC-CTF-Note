@@ -119,6 +119,7 @@ export default defineConfig({
           collapsed: false,
           items: [
             { text: 'OSINT Tools', link: 'CTF Notes/OSINT/tools.md' },
+            { text: 'OSINT Tools', link: 'CTF Notes/OSINT/top-level-domains.md' },
           ]
         },
       ],
