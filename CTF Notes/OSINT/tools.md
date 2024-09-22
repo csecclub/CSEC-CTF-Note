@@ -41,4 +41,7 @@ Past flight tracker:
 Used to find more info on domain names and websites
 - https://who.is/
 - https://lookup.icann.org/en
-- 
+
+## OpenPGP keys
+- https://keys.openpgp.org/
+- https://keyserver.ubuntu.com/
