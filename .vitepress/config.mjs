@@ -74,6 +74,8 @@ export default defineConfig({
           collapsed: false,
           items: [
             { text: 'OneTimePad', link: 'CTF Notes/Cyptography/Onepad.md' },
+            { text: 'RailCipher', link: 'CTF Notes/Cyptography/railcipher.md' },
+            { text: 'VignereCipher', link: 'CTF Notes/Cyptography/Vigenère-cipher.md' },
           ]
         },
       ],
@@ -119,6 +121,7 @@ export default defineConfig({
           collapsed: false,
           items: [
             { text: 'OSINT Tools', link: 'CTF Notes/OSINT/tools.md' },
+            { text: 'OSINT Tools', link: 'CTF Notes/OSINT/top-level-domains.md' },
           ]
         },
       ],

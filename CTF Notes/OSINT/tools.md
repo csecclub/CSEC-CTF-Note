@@ -36,3 +36,17 @@ Current flight tracker:
 - https://www.flightaware.com/
 Past flight tracker:
 - https://www.flightstats.com/v2/
+
+## domain info
+Used to find more info on domain names and websites
+- https://who.is/
+- https://lookup.icann.org/en
+
+## OpenPGP keys
+Find info on PGP email's and keys (not very cyber secure)
+- https://keys.openpgp.org/
+- https://keyserver.ubuntu.com/
+
+## Barcode Scanner
+Scan barcodes from your pc!
+- https://online-barcode-reader.inliteresearch.com/
