@@ -50,3 +50,7 @@ Find info on PGP email's and keys (not very cyber secure)
 ## Barcode Scanner
 Scan barcodes from your pc!
 - https://online-barcode-reader.inliteresearch.com/
+
+## US Bank Routing Number lookup
+Look up routing numbers for banks by searching their name or routing number
+- https://www.chax.com/bank-routing-number-lookup.htm 
