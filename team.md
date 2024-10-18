@@ -9,6 +9,7 @@ import{
     VPTeamPageSection
 } from 'vitepress/theme'
 
+
 import Brett from './assets/officers/Brett.jpg'
 import DiegoM from './assets/officers/Diego.jpg'
 import Javier from './assets/officers/Javier.jpg'
