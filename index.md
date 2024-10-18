@@ -33,8 +33,11 @@ hero:
       text: Binary Exploitation
       link: CTF Notes/BinaryExploitation/what-is-BE.md
     - theme: alt
+      text: HackUTACTF24 Writeups
+      link: CSECNotes/HackUTACtf/hackUTACTF2024.md
+    - theme: alt
       text: View on Github
-      link: https://github.com/Betim-Hodza/CSEC-CTF-REP
+      link: https://github.com/csecclub/CSEC-CTF-Note
 
 features:
   - icon: 🛠️
@@ -47,6 +50,10 @@ features:
     title: Beginner Friendly
     details: This site contains beginner tutorials on how to learn/do CTFs and use the tools needed to solve problems!
 ---
+
+## CTF-Playground
+CSEC has created their own CTF-Playground to practice your CTF skills!
+https://battleground-uta.vercel.app/ 
 
 ## How to Contribute 
 To contribute, simply fork this repository and create a new branch for your changes. 

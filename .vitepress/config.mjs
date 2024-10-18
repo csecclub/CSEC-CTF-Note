@@ -38,6 +38,7 @@ export default defineConfig({
       {
         text: 'Notes and Topics',
         items: [
+          { text: 'HackUTA24 Writeups', link: 'CSECNotes/HackUTACtf/hackUTACTF2024.md' },
           { text: 'Shell Commands', link: 'CSECNotes/ShellCommand/shellcommands.md' },
           
         ]

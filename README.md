@@ -71,6 +71,15 @@ sudo apt install npm
 npm install -g vitepress
 ```
 
+if NPM never works (which it usually never does)
+use yarn instead
+
+```
+yarn
+yarn run docs:dev
+yarn run docs:build
+```
+
 ## Usage
 
 > To get started using the website follow the link [here](https://csecnote.pages.dev/)
