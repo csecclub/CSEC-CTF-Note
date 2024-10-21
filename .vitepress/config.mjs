@@ -160,10 +160,5 @@ export default defineConfig({
       { icon: 'github', link: 'https://github.com/csecclub/CSECNote' }
     ],
 
-    search: 
-    {
-      provider: 'local'
-    },
-
   }
 })

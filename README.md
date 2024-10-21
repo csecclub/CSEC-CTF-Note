@@ -71,13 +71,12 @@ sudo apt install npm
 npm install -g vitepress
 ```
 
-if NPM never works (which it usually never does)
-use yarn instead
+This project REQUIRES npm
 
 ```
-yarn
-yarn run docs:dev
-yarn run docs:build
+npm
+npm run docs:dev
+npm run docs:build
 ```
 
 ## Usage
