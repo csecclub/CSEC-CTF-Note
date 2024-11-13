@@ -47,6 +47,72 @@ copy file or directory to target destination
 cp <target> <destination>
 ```
 
+## sudo
+
+Execute a command as another user
+```
+sudo [Command]
+```
+* sudo allows a permitted user to execute a command as the superuser.
+* Commonly used when installing packages
+
+## su
+
+Substitute user identity
+```
+sudo su
+```
+* Typically used as above to it switches user identities temporarily to the superuser
+
+## passwd
+
+changes a users password
+* used by itself it changes a current users password
+* used w/ a username it'l change that users password
+```
+passwd username
+```
+
+## useradd
+
+useradd is a command in Linux that is used to add user accounts to your system
+
+```
+useradd [options] [User_name]
+```
+
+## mkdir
+
+Create directories / folders
+
+```
+mkdir [name]
+```
+
+## wget
+
+Download files from the web
+```
+wget [URL]
+```
+
+## tar
+
+Archiving Utility, usually combined w/ a compression method like gzip or bzip2
+
+- E[x]tract a (compressed) archive [f]ile into the current directory [v]erbosely:
+```
+tar xfv [path/to/source.tar]
+```
+
+## chown
+
+Change user and group ownership of files and directories
+
+```
+chown [user] [path/to/file_or_dir]
+```
+
 ## mv
 
 like copy, but it moves files to new destinations
