@@ -152,12 +152,12 @@ export default defineConfig({
     },
 
     editLink: {
-      pattern: 'https://github.com/csecclub/CSECNote',
+      pattern: 'https://github.com/csecclub/CSEC-CTF-Note',
       text: 'Edit this page on github!',
     },
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/csecclub/CSECNote' }
+      { icon: 'github', link: 'https://github.com/csecclub/CSEC-CTF-Note' }
     ],
 
   }
