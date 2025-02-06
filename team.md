@@ -59,7 +59,7 @@ const members = [
     },
     {
       avatar: Brett,
-        name: 'Richard',
+        name: 'Richard Olu Jordan',
         title: 'Treasurer Trainee',
         desc: '',
         org: 'CSEC',
