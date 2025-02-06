@@ -48,16 +48,6 @@ const members = [
         ]
     },
     {
-        avatar: Fawaz,
-        name: 'Fawaz Asif',
-        title: 'Web Developer',
-        desc: '',
-        org: 'CSEC',
-        links: [
-            { icon: 'linkedin', link: 'https://www.linkedin.com/in/fawaz-asif/'},
-        ]
-    },
-    {
         avatar: Brett,
         name: 'Christian Brown',
         title: 'Treasurer',
@@ -75,6 +65,16 @@ const members = [
         org: 'CSEC',
         links: [
           { icon: 'linkedin', link: 'https://www.linkedin.com/in/richardolujordan/'},
+        ]
+    },
+        {
+        avatar: Fawaz,
+        name: 'Fawaz Asif',
+        title: 'Web Developer',
+        desc: '',
+        org: 'CSEC',
+        links: [
+            { icon: 'linkedin', link: 'https://www.linkedin.com/in/fawaz-asif/'},
         ]
     },
     {
