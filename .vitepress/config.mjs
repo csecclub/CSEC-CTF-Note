@@ -15,7 +15,7 @@ export default defineConfig({
   description: "repo for all your ctf needs",
   
   themeConfig: {
-    logo: 'https://utacsec.org/static/media/michi.576d038960feac1cb458.png',
+    logo: 'assets/michi.png',
     siteTitle: 'CSEC',
     
     // https://vitepress.dev/reference/default-theme-config
@@ -39,6 +39,7 @@ export default defineConfig({
         text: 'Notes and Topics',
         items: [
           { text: 'HackUTA24 Writeups', link: 'CSECNotes/HackUTACtf/hackUTACTF2024.md' },
+          { text: 'CTF-Playground Writeups', link: 'CSECNotes/CTF-Playground/writeup.md' },
           { text: 'Shell Commands', link: 'CSECNotes/ShellCommand/shellcommands.md' },
           
         ]
@@ -122,7 +123,7 @@ export default defineConfig({
           collapsed: false,
           items: [
             { text: 'OSINT Tools', link: 'CTF Notes/OSINT/tools.md' },
-            { text: 'OSINT Tools', link: 'CTF Notes/OSINT/top-level-domains.md' },
+            { text: 'OSINT TLD', link: 'CTF Notes/OSINT/top-level-domains.md' },
           ]
         },
       ],

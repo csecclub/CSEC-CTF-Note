@@ -8,6 +8,7 @@
     "docs:preview": "vitepress preview"
   },
   "dependencies": {
+    "@rollup/rollup-darwin-arm64": "^4.34.6",
     "@vitejs/plugin-vue": "^5.0.4",
     "markdown-it-mathjax3": "^4.3.2",
     "yarn": "^1.22.22"
