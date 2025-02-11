@@ -23,19 +23,14 @@ import Anne from './assets/officers/Anne.jpg'
 import DiegoV from './assets/officers/DiegoVester.jpg'
 import Betim from './assets/officers/Betim.jpeg'
 import Devrat from './assets/officers/Devrat.jpg'
+import Fawaz from './assets/officers/Fawaz.jpg'
+import Summer from './assets/officers/SummerBarnes.jpeg'
 
 const members = [
     {
-      avatar: Brett,
-        name: 'Brett',
+      avatar: Rose,
+        name: 'Rose Ramirez',
         title: 'President',
-        desc: '',
-        org: 'CSEC',
-    },
-    {
-        avatar: Rose,
-        name: 'Rose Ramireze',
-        title: 'Vice President',
         desc: '',
         org: 'CSEC',
         links: [
@@ -43,99 +38,9 @@ const members = [
         ]
     },
     {
-        avatar: DiegoM,
-        name: 'Diego Martinez',
-        title: 'Secretary',
-        desc: '',
-        org: 'CSEC',
-        links: [
-            { icon: 'linkedin', link: 'https://www.linkedin.com/in/diemar20'},
-        ]
-    },
-    {
-        avatar: Javier,
-        name: 'Javier Cardoso',
-        title: 'Web Master',
-        desc: '',
-        org: 'CSEC',
-        links: [
-            { icon: 'linkedin', link: 'https://www.linkedin.com/in/cardoso-javier/'},
-        ]
-    },
-    {
-        avatar: Jocelyn,
-        name: 'Jocelyn Vazquez',
-        title: 'Infra. Officer',
-        desc: '',
-        org: 'CSEC',
-        links: [
-            { icon: 'linkedin', link: 'https://www.linkedin.com/in/jocelyn-vazquez'},
-        ]
-    },
-    {
-      avatar: Monika,
-        name: 'Monika Sutaria',
-        title: 'Tech Devt. Officer',
-        desc: '',
-        org: 'CSEC',
-        links: [
-          { icon: 'linkedin', link: 'https://www.linkedin.com/in/monika-sutaria7/'},
-        ]
-    },
-    {
-      avatar: Nicole,
-        name: 'Nicole Rodriguez',
-        title: 'Event Coordinator',
-        desc: '',
-        org: 'CSEC',
-        links: [
-          { icon: 'linkedin', link: 'https://utacsec.org/www.linkedin.com/in/nicoleceline'},
-        ]
-    },
-    {
-      avatar: Jeremiah,
-        name: 'Jeremiah Pitts',
-        title: 'Event Planner',
-        desc: '',
-        org: 'CSEC',
-        links: [
-            { icon: 'linkedin', link: 'https://www.linkedin.com/in/jeremiahpitts/'},
-        ]
-    },
-    {
-        avatar: Gino,
-        name: 'Gino De Luna',
-        title: 'Social Media Officer',
-        desc: '',
-        org: 'CSEC',
-        links: [
-          { icon: 'linkedin', link: 'https://www.linkedin.com/in/gino-de-luna/'},
-        ]
-    },
-    {
-      avatar: Anne,
-        name: 'Anne Nguyen',
-        title: 'CTF Officer',
-        desc: '',
-        org: 'CSEC',
-        links: [
-          { icon: 'linkedin', link: 'https://www.linkedin.com/in/anne-h-nguyen/'},
-        ]
-    },
-    {
-        avatar: DiegoV,
-        name: 'Diego Vester',
-        title: 'Director of Fundraising',
-        desc: '',
-        org: 'CSEC',
-        links: [
-            { icon: 'linkedin', link: 'https://www.linkedin.com/in/diegovester/'},
-        ]
-    },
-    {
-      avatar: Betim,
-        name: 'Betim Hodza',
-        title: 'Membership Officer',
+        avatar: Betim,
+        name: 'Betim Hozda',
+        title: 'Vice President',
         desc: '',
         org: 'CSEC',
         links: [
@@ -143,13 +48,110 @@ const members = [
         ]
     },
     {
-        avatar: Devrat,
-        name: 'Devrat Patel',
+        avatar: Brett,
+        name: 'Christian Brown',
+        title: 'Treasurer',
+        desc: '',
+        org: 'CSEC',
+        links: [
+            { icon: 'linkedin', link: 'https://www.linkedin.com/in/christian-t-brown/'},
+        ]
+    },
+    {
+      avatar: Brett,
+        name: 'Richard Olu Jordan',
+        title: 'Treasurer Trainee',
+        desc: '',
+        org: 'CSEC',
+        links: [
+          { icon: 'linkedin', link: 'https://www.linkedin.com/in/richardolujordan/'},
+        ]
+    },
+        {
+        avatar: Fawaz,
+        name: 'Fawaz Asif',
+        title: 'Web Developer',
+        desc: '',
+        org: 'CSEC',
+        links: [
+            { icon: 'linkedin', link: 'https://www.linkedin.com/in/fawaz-asif/'},
+        ]
+    },
+    {
+      avatar: Summer,
+        name: 'Summer Barnes',
+        title: 'Event Coordinator',
+        desc: '',
+        org: 'CSEC',
+        links: [
+          { icon: 'linkedin', link: 'https://www.linkedin.com/in/summer-rae-barnes/'},
+        ]
+    },
+    {
+      avatar: Jeremiah,
+        name: 'Jeremiah Pitts',
+        title: 'Research Officer',
+        desc: '',
+        org: 'CSEC',
+        links: [
+            { icon: 'linkedin', link: 'https://www.linkedin.com/in/jeremiahpitts/'},
+        ]
+    },
+    {
+      avatar: Brett,
+        name: 'Brett Boggs',
+        title: 'Outreach Director',
+        desc: '',
+        org: 'CSEC',
+    },
+    {
+        avatar: Brett,
+        name: 'Basmlh Elsayed',
+        title: 'Social Media Officer',
+        desc: '',
+        org: 'CSEC',
+        links: [
+          { icon: 'linkedin', link: 'https://www.linkedin.com/in/basmlh-elsayed/'},
+        ]
+    },
+    {
+      avatar: Brett,
+        name: 'Phillip Lenguyen',
+        title: 'CTF Captain',
+        desc: '',
+        org: 'CSEC',
+        links: [
+          { icon: 'linkedin', link: 'https://www.linkedin.com/in/philliplenguyen/'},
+        ]
+    },
+    {
+        avatar: Brett,
+        name: 'Rohita ',
+        title: 'Fundraising Director',
+        desc: '',
+        org: 'CSEC',
+        links: [
+            { icon: 'linkedin', link: 'https://www.linkedin.com/in/rohita-k/'},
+        ]
+    },
+    {
+      avatar: Brett,
+        name: 'Wesley Cadiz',
         title: 'Membership Officer',
         desc: '',
         org: 'CSEC',
         links: [
-            { icon: 'linkedin', link: 'https://www.linkedin.com/in/devratpatel/'},
+            { icon: 'linkedin', link: 'https://www.linkedin.com/in/wescadiz/'},
+        ]
+    },
+    {
+        avatar: Brett,
+        name: 'Safal Karki',
+        title: 'Recruitment Officer',
+        desc: '',
+        org: 'CSEC',
+        links: [
+            { icon: 'linkedin', link: 'https://www.linkedin.com/in/safal-karki-8a0aa22b1/'},
         ]
     },
     // ... other team members
