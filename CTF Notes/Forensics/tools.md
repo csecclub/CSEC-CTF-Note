@@ -6,6 +6,7 @@
 
 ## Steganography
 - <a href="https://0xrick.github.io/lists/stego/">Great tool list</a>
+- <a href="https://daniellerch.me/stego/intro/tools-en/">Another list</a>
 
 - stepic (python lib)
   ```python
