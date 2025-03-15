@@ -1,16 +1,39 @@
 # Forensic Tools
 
-## Aperi'Solve 
-* is an online platform which performs layer analysis on image. 
+## 
 
-<a href="https://www.aperisolve.com">Aperi'Solve</a>
+
 
 ## Steganography
-Use digital invisible ink toolkit jar
-<a href="https://diit.sourceforge.net/download.php">DIIT Toolkit Jar Download Link</a><
-```
-java -jar jiid.jar
-```
+- <a href="https://0xrick.github.io/lists/stego/">Great tool list</a>
+- <a href="https://daniellerch.me/stego/intro/tools-en/">Another list</a>
+
+- stepic (python lib)
+  ```python
+  # pip install pillow stepic
+  from PIL import Image
+  import stepic
+
+  image = Image.open("pic.png")
+  msg = stepic.decode(image)
+  print(msg)
+  ```
+
+- zsteg (Useful for decoding LSB, and other steg methods at once)
+  ```bash
+  #gem install zsteg
+  zsteg pic.png
+  #For large files (use desired number)
+  RUBY_THREAD_VM_STACK_SIZE=2000000 zsteg pic.png
+  ```
+
+- Use digital invisible ink toolkit jar
+  <a href="https://diit.sourceforge.net/download.php">DIIT Toolkit Jar Download Link</a><
+  ```
+  java -jar jiid.jar
+  ```
+- <a href="https://incoherency.co.uk/image-steganography/">Image Steganalysis by Incoherency</a>
+- <a href="https://www.aperisolve.com">Aperi'Solve</a> is an online platform which performs layer analysis on image. 
 
 ## Decompiling C
 This website allows you to input a C file and decompile to find stored values 
@@ -20,12 +43,6 @@ This website allows you to input a C file and decompile to find stored values
 ## Disassembly Linux
 Great source to look back to learn tools like ltrace strace and such
 <a href="https://www.codementor.io/@packt/reverse-engineering-a-linux-executable-hello-world-rjceryk5d">CodeMentor Article</a>
-
-
-## Hidden flags behind images
-* You can view hidden information behind images!
-
-<a href="https://incoherency.co.uk/image-steganography/">Image Steganalysis by Incoherency</a>
 
 ## JAB Code (enhanced qr code with color)
 <a href="https://jabcode.org">JABCode Website</a>
@@ -50,4 +67,9 @@ basically a tool that can tell you more about files (works well with .img files)
 
 ```
 Binwalk -h 
+```
+
+## Get text embedded in a file
+```bash
+strings <file>
 ```
