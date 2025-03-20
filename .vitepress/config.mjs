@@ -33,6 +33,7 @@ export default defineConfig({
           { text: 'Log Analysis', link: 'CTF Notes/Log-Analysis/tools.md' },
           { text: 'Network Traffic Analysis', link: 'CTF Notes/Network-Traffic-Analysis/tools.md' },
           { text: 'Binary Exploitation', link: 'CTF Notes/BinaryExploitation/tools.md' },
+          { text: 'Web Exploitation', link: 'CTF Notes/WebExploitation/SSTI.md'},
         ]
       },
       {
@@ -150,6 +151,17 @@ export default defineConfig({
           ]
         },
       ],
+
+      'CTF Notes/WebExploitation': [
+        {
+          text: 'Web Exploitation tools and info',
+          collapsed: false,
+          items: [
+            { text: 'SSTI', link: 'CTF Notes/WebExploitation/SSTI.md' },
+          ],
+       },
+      ],
+
     },
 
     editLink: {
