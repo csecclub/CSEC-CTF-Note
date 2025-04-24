@@ -40,9 +40,9 @@ export default defineConfig({
         text: 'Notes and Topics',
         items: [
           { text: 'HackUTA24 Writeups', link: 'CSECNotes/HackUTACtf/hackUTACTF2024.md' },
+          { text: 'PicoCTF25 Writeups', link: 'CSECNotes/PicoCTF_25/README.md'},
           { text: 'CTF-Playground Writeups', link: 'CSECNotes/CTF-Playground/writeup.md' },
           { text: 'Shell Commands', link: 'CSECNotes/ShellCommand/shellcommands.md' },
-          
         ]
       },
     ],
